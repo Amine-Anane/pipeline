@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Display Date') {
             steps {
-                echo 'Hello aminee'
+                sh 'date'
             }
         }
     }
